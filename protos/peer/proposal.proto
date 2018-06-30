@@ -143,7 +143,7 @@ message Proposal {
 	// Optional extensions to the proposal. Its content depends on the Header's
 	// type field.  For the type CHAINCODE, it might be the bytes of a
 	// ChaincodeAction message.
-	bytes extension = 3;
+	bytes proposal_extension = 3;
 }
 
 //-------- the Chaincode Proposal -----------
